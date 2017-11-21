@@ -1,0 +1,26 @@
+{
+  "name": "minimal_p2p_js_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/minimal_p2p_js_site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmix/minimal_p2p_js_site/issues"
+  },
+  "homepage": "https://github.com/mixmix/minimal_p2p_js_site#readme",
+  "dependencies": {
+    "yo-yo": "^1.4.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0"
+  }
+}
