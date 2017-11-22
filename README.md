@@ -58,3 +58,10 @@ yo`
 New deps: 
 - [watchify](https://github.com/substack/watchify)
 
+
+## v4 - add a 'database'
+
+Imagine we want to add pages for each project we have.
+Rather than hard-coding each page, let's imaging each page has some common elements like a `name`, `image`, `description` etc.
+We'll make a generic template for projects, extract the data into a file (our database) and teach the router and projects page to dynamically make links to the pages.
+
