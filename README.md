@@ -34,6 +34,8 @@ New deps:
 Running that build script manually all the time is a drag, so lets add a live rebuilding tool called `watchify`.
 Start it watching and building using the new script in the `package.json` : `npm run watch`
 
+Extract the pages and router out into seperate files, chuck them in a `source` folder.
+
 New deps: 
 - [watchify](https://github.com/substack/watchify)
 
