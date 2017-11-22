@@ -28,3 +28,12 @@ Remember that you need to run `npm run build` to compile a new `bundle.js` any t
 New deps:
 - [sheet-router](https://github.com/yoshuawuyts/sheet-router): simple router with nice click handler 
 
+
+## v3 - refactor templates, build tools
+
+Running that build script manually all the time is a drag, so lets add a live rebuilding tool called `watchify`.
+Start it watching and building using the new script in the `package.json` : `npm run watch`
+
+New deps: 
+- [watchify](https://github.com/substack/watchify)
+
