@@ -36,6 +36,25 @@ Start it watching and building using the new script in the `package.json` : `npm
 
 Extract the pages and router out into seperate files, chuck them in a `source` folder.
 
+Extract a 'layout' template which hold the common nav bar code, and lets you insert custom content.
+Not that there's a gotcha with templates where you the chunk of template you export MUST have only one top level tag (this makes inserting/ morphing the content possible):
+
+```js
+// YES
+yo`
+  <div>               // << top level tag
+    <h1>Hi</h1>
+    <img src='...' />
+  </div>
+`
+
+// NO !!!!
+yo`
+  <h1>Hi</h1>
+  <img src='...' />
+`
+``` 
+
 New deps: 
 - [watchify](https://github.com/substack/watchify)
 

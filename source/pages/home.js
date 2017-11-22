@@ -1,18 +1,18 @@
 const yo = require('yo-yo')
+const layout = require('../layouts/main')
 
-const homePage = () => yo `
-<div> 
-  <nav>
-    <a href='/'>Home</a>
-    <a href='/projects'>Projects</a>
-    <a href='/about'>About</a>
-  </nav>
-  <h1>Home</h1>
-  <div>
-    Welcome
-  </div>
-</div>
-`
+const homePage = (params) => {
+  const content = yo`
+    <section>
+      <h1>Home</h1>
+      <div>
+        Welcome
+      </div>
+    </section>
+  `
+
+  return layout(content)
+}
 
 module.exports = homePage
 
