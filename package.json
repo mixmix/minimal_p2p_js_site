@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mixmix/minimal_p2p_js_site#readme",
   "dependencies": {
+    "sheet-router": "^4.2.3",
     "yo-yo": "^1.4.1"
   },
   "devDependencies": {
